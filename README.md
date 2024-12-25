@@ -32,5 +32,6 @@ The model is part of a pipeline that includes:
 Once the dependencies are installed, you can run the Streamlit app using the following command:
 ```bash
 streamlit run app.py
+```
 
 This will launch the app in your web browser, typically at http://localhost:8501.
