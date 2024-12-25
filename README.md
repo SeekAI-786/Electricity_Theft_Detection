@@ -27,34 +27,10 @@ The model is part of a pipeline that includes:
    Before running the Streamlit app, make sure to install all necessary dependencies. You can do this by running the following command:
    ```bash
    pip install -r requirements.txt
-Run the Streamlit App: Once the dependencies are installed, you can run the Streamlit app using the following command:
 
-bash
-Copy code
+2. **Run the Streamlit App**:
+Once the dependencies are installed, you can run the Streamlit app using the following command:
+```bash
 streamlit run app.py
+
 This will launch the app in your web browser, typically at http://localhost:8501.
-
-Interact with the App:
-
-The app allows you to input the following details to predict whether electricity theft is happening:
-
-Usage (kWh)
-Time of Day
-Voltage Fluctuations
-Number of Residents
-Appliance Count
-Industrial Area Nearby
-Previous Theft History
-Average Daily Usage
-Bill Payment Delay (days)
-Unusual Usage Spike
-After entering the values, the model will predict whether theft is detected based on the provided inputs.
-
-Screenshot of the Streamlit Interface
-Below is a screenshot of the Streamlit interface showing the prediction results:
-
-
-
-
-Conclusion
-This project demonstrates how machine learning can be used to detect electricity theft based on various features. By leveraging techniques like SMOTE for class imbalance and Random Forest for classification, the system helps utility companies identify potential theft cases, leading to better resource management and revenue recovery.
