@@ -64,17 +64,19 @@ def main():
             result = "Theft" if prediction == 1 else "No Theft"
 
             if result == "Theft":
-                st.markdown("""
+                    st.markdown("""
                     <div style="background-color: #f8d7da; padding: 20px; border-radius: 5px; text-align: center;">
                     <h2 style="color: #721c24;">Prediction: Theft</h2>
+                    <p style="color: #721c24; font-size: 16px;">Please contact K Electric at <b>118</b> or <b>99000</b> to report the issue immediately.</p>
                     </div>
-                """, unsafe_allow_html=True)
+                    """, unsafe_allow_html=True)
             else:
-                st.markdown("""
+                    st.markdown("""
                     <div style="background-color: #d4edda; padding: 20px; border-radius: 5px; text-align: center;">
                     <h2 style="color: #155724;">Prediction: No Theft</h2>
                     </div>
-                """, unsafe_allow_html=True)
+                    """, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
